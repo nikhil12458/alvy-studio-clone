@@ -32,7 +32,7 @@ section {
   max-width: 2000px;
 }
 
-nav{
+nav {
   max-width: 2000px;
 }
 
@@ -61,8 +61,6 @@ main {
       gap: 1rem;
 
       .content {
-        display: flex;
-        gap: 1rem;
         display: none;
       }
 
@@ -526,12 +524,16 @@ main {
     nav {
       padding: 1rem 4rem;
 
-      .buttons{
-        button{
+      .buttons {
+        button {
           display: none;
         }
+
+        .content {
+          display: flex;
+          gap: 1rem;
+        }
       }
-      
     }
 
     section.view1 {

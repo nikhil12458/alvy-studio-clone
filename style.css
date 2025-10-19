@@ -55,8 +55,6 @@ main nav .buttons {
   gap: 1rem;
 }
 main nav .buttons .content {
-  display: flex;
-  gap: 1rem;
   display: none;
 }
 main nav .buttons .hamburger {
@@ -501,6 +499,10 @@ main section.footer .main .bottom .right p i {
   }
   main nav .buttons button {
     display: none;
+  }
+  main nav .buttons .content {
+    display: flex;
+    gap: 1rem;
   }
   main section.view1 {
     flex-direction: row;
